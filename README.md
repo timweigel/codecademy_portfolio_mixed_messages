@@ -3,7 +3,7 @@
 
 This readme file will be updated as the project progressses.
 
-The objective is to develop a message generator that composes random messages from at least 3 random pieces of data.
+The objective is to develop a message generator that composes random messages from at least 3 random pieces of data. I will be developing a message generator that produces humorous (results may vary) database error messages in the style of SQL Server error messages, presented in the error log format.
 
 This project is developed in JavaScript, tested on node.js version 15.6.0.
 
@@ -18,7 +18,7 @@ In progress:
 
 * Create script and run it locally
 * Store message components
-* Create the message 
+* Create the message
 
 Completed:
 
