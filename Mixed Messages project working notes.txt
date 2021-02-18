@@ -1,0 +1,4 @@
+Mixed Messages project working notes (separate from README)
+A humorous (YMMV) database error message generator.
+- Constructed to resemble syntax from sys.messsages (https://docs.microsoft.com/en-us/sql/relational-databases/system-catalog-views/messages-for-errors-catalog-views-sys-messages?view=sql-server-ver15)
+- Presentation along the lines of the SQL Server error log (timestamp, process ID, message)

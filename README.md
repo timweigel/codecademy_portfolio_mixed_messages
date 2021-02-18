@@ -11,17 +11,17 @@ Project start date is Wednesday, 17 Feb 2021. Target completion date is Wednesda
 
 To-do:
 
-* Create script and run it locally
-* Store message components
-* Create the message
 * Put the program together
 * Next steps
 
 In progress:
 
-* Plan the project
-* Come up with a topic
+* Create script and run it locally
+* Store message components
+* Create the message 
 
 Completed:
 
 * Set up version control
+* Plan the project
+* Come up with a topic
