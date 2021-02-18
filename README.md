@@ -9,4 +9,19 @@ This project is developed in JavaScript, tested on node.js version 15.6.0.
 
 Target completion date is Wednesday, 24 Feb 2021. I plan to work on this at least one hour each day until completed.
 
-Gracious thanks to Sonic Youth for supplying the soundtrack for my development efforts.
+To-do:
+
+* Create script and run it locally
+* Store message components
+* Create the message
+* Put the program together
+* Next steps
+
+In progress:
+
+* Plan the project
+* Come up with a topic
+
+Completed:
+
+* Set up version control
