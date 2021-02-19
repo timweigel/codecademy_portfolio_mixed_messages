@@ -2,3 +2,39 @@ Mixed Messages project working notes (separate from README)
 A humorous (YMMV) database error message generator.
 - Constructed to resemble syntax from sys.messsages (https://docs.microsoft.com/en-us/sql/relational-databases/system-catalog-views/messages-for-errors-catalog-views-sys-messages?view=sql-server-ver15)
 - Presentation along the lines of the SQL Server error log (timestamp, process ID, message)
+
+The mealMaker project from the JavaScript Syntax II section is a good model for this.
+
+SELECT
+    message_id
+    , severity
+    , is_event_logged
+    , text
+FROM sys.messages
+WHERE language_id = 1033
+	AND text LIKE '%!%%' ESCAPE '!';
+GO
+
+to get sysmessages contents for US English that contain % characters.
+
+Message examples from sys.messages:
+
+Cannot convert data type %ls to %ls.
+The collation '%.*ls' of receiving variable is not equal to the collation '%.*ls' of column '%.*ls'.
+Cannot find %S_MSG ID %d in database ID %d.
+The index "%.*ls" for table "%.*ls" (RowsetId %I64d) resides on a read-only filegroup ("%.*ls"), which cannot be modified.
+Could not disable support for %ls in database '%.*ls' because %S_MSG.
+Could not enable support for %ls in database '%.*ls' because %S_MSG.
+
+and so on.
+
+To keep this project simple, I will include 3 classes of message, each with 3 segments, each containing a variable. I'll have 3 possible things that can go in each variable. This will allow for a reasonable number of possible outcomes with enough complexity to make me stretch, but not so much that I can't complete the project within my set timeline.
+
+Message classes:
+- Security
+	- Login failures, stuff like that.
+- File
+	- Files are full, disks are full, files are missing, what have you
+- Data
+	- Along the lines of data type errors, truncation messages, stuff like that
+

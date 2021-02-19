@@ -6,3 +6,7 @@
 					that creates messages from at least three
 					different pieces of data.
 =============================================================================*/
+
+const messageMaker = {
+	
+}
