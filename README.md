@@ -16,8 +16,6 @@ To-do:
 
 In progress:
 
-* Create script and run it locally
-* Store message components
 * Create the message
 
 Completed:
@@ -25,3 +23,5 @@ Completed:
 * Set up version control
 * Plan the project
 * Come up with a topic
+* Create script and run it locally
+* Store message components
