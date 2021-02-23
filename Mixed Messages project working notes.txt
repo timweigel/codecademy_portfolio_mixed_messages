@@ -38,3 +38,32 @@ Message classes:
 - Data
 	- Along the lines of data type errors, truncation messages, stuff like that
 
+Data structure (I do databases for a living, can you tell?)	
+messageTypes:
+- Array with 2 values:
+	- type number
+		1, 2, 3
+	- type description
+		security, file, data respectively
+
+messageSegments:
+- Array with n values:
+	- type number
+		- 1, 2, or 3; this would be a foreign key reference in a database
+	- segment position
+		- begin
+			- 1
+		- mid
+			- 2
+		- end
+			- 3
+	- segment text
+
+messageVariables:
+- Array with n values
+	- type number
+		- 1, 2, or 3
+	- segment number
+		- 1, 2, or 3
+	- content
+		- Single word or short phrase appropriate to the type and segment
